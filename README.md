@@ -44,5 +44,7 @@ To avoid the impact when coding the other model (in default parameters), we adop
       [https://chatgpt.com/share/297a94ac-6371-4fb3-ac14-7586aff8055d]
 
 # Data
-
+The dataset is in the folder "Data(4sec)"
 # Appendix
+Template of the data characteristics: <Data description template.xlsx>
+Data characteristics described in this case study <Description of data.csv>
