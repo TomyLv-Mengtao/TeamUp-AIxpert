@@ -12,14 +12,16 @@ It verifies the concept of promoting industrial engineering researchers at the s
 
 
 2. The conversation with the Computer Scientist can be found on the page below. It recommends LightGBM, Gradient-boosted decision trees (GBDT), Random Forest (RF) models among 6 given models
-  "_AIxpert_" 2
+
+"_AIxpert_" 2
   [https://chatgpt.com/share/ee23082b-8229-4765-aca8-a4d4d3154fbf]
 
 
-3. The conversation with the Program coder(s) can be found on the page below.
+4. The conversation with the Program coder(s) can be found on the page below.
 We ask the coder to code the model without giving the data characteristics (1st round), and then ask them to optimize by giving the data characteristics (2nd round).
 To avoid the impact when coding the other model (in default parameters), we adopted six different "_AIxperts_". 
-  "_AIxpert_" 3:
+
+"_AIxpert_" 3:
 
 Random Forest (RF):
   [https://chatgpt.com/share/4762efae-ad14-4b48-b920-3ea01a3486cf]
