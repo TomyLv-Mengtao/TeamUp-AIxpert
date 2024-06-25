@@ -1,0 +1,34 @@
+﻿Attribute,Description
+Data Nature,Each csv file represents a 4-second slice of eye-tracking data. The data records the gaze activity of a pilot in a flight task
+Length,The length is fixed with 402 rows (excluding header) in one csv file
+Prediction Value,"The files are stored in either ""Pos"" folder or ""Neg"" folder. The files in ""Pos"" folder are positive cases, files in ""Neg"" folder are negative folders"
+Feature Number,10
+Feature-1 Name,Pupil Diameter
+Feature-1 Description,"A numerical value, representing normalized pupil diameter. The value in each row (each sampling point of the eye-tracker) is normalized based on the average pupil diameter of the whole flight. The pupil diameters are usually associated with a high degree of interest"
+Feature-2 Name,Movement
+Feature-2 Description,"There are three values in string: ""Fixation"", ""Saccade"", ""Unclassified"". Fixations can be defined as the periods of time where the eyes are relatively still, holding the central foveal vision in place so that the visual system can take in detailed information about what is being looked at. ""Saccade"" is the type of eye movement used to move the fovea rapidly from one point to another. ""Unclassified"" is when the eye-tracker cannot capture or classify the movement type."
+Feature-3 Name,ECAM and MFD
+Feature-3 Description,"Binary value of ""0"" or ""1"" (if null, deem as ""0""). It represents whether the pilot is looking at the Electronic Centralized Aircraft Monitor (ECAM) and Multi-Function Display (MFD) at the sampling point (""1"") or not (""0"" or null). The ECAM and MFD are used to monitor aircraft systems and provide alerts to pilots about the aircraft's health and status. They serve multiple purposes, such as displaying maps, flight plans, weather, and aircraft systems information."
+Feature-4 Name,External
+Feature-4 Description,"Binary value of ""0"" or ""1"" (if null, deem as ""0""). It represents whether the pilot is looking at the external view outside the cockpit that provides additional visual references to the pilots through the window."
+Feature-5 Name,FCU
+Feature-5 Description,"Binary value of ""0"" or ""1"" (if null, deem as ""0""). It represents whether the pilot is looking at the Flight Control Unit. FCU is the interface that allows pilots to enter and control the autopilot system, setting and adjusting things like altitude, heading, and speed."
+Feature-6 Name,LDG
+Feature-6 Description,"Binary value of ""0"" or ""1"" (if null, deem as ""0""). It represents whether the pilot is looking at the Landing Gear Panel. The LDG consists of the controls and indicators for the aircraft's landing gear system, displaying the status of the gear and any related warnings."
+Feature-7 Name,MCDU
+Feature-7 Description,"Binary value of ""0"" or ""1"" (if null, deem as ""0""). It represents whether the pilot is looking at the Multifunction Control Display Unit. MCDU is the interface for the Flight Management System (FMS), where pilots can input flight plans, perform calculations, and manage the aircraft's performance."
+Feature-8 Name,ND
+Feature-8 Description,"Binary value of ""0"" or ""1"" (if null, deem as ""0""). It represents whether the pilot is looking at the Navigation Display. ND shows the aircraft's route in relation to navigation aids, the flight plan, and other important details such as weather radar."
+Feature-9 Name,PFD
+Feature-9 Description,"Binary value of ""0"" or ""1"" (if null, deem as ""0""). It represents whether the pilot is looking at the Primary Flight Display. PFD displays critical flight information such as speed, altitude, and attitude, along with navigational information."
+Feature-10 Name,Others
+Feature-10 Description,"Binary value of ""0"" or ""1"" (if null, deem as ""0""). It represents whether the pilot is looking at the other places. It represents the other parts inside the cockpit that are not defined as specific AOIs."
+Data Size,"Each csv contains 10 columns above, and 402 rows"
+Missing Values,No missing values. Each row represents 10 microseconds.
+Data Type,Numerical and string
+Time Dependency,Yes. Each row represents 10 microseconds. Each whole csv file represents a 4-second slice of eye-tracking data.
+Class Balance,Balanced positive and negative cases (68 :68)
+Domain Knowledge,Null
+Data Splitting,10-fold cross-validation
+Performance Metric,"Precision, Recall, F1 score"
+Additional Notes,Null
