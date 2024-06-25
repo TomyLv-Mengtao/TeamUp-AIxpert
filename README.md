@@ -6,13 +6,14 @@ It verifies the concept of promoting industrial engineering researchers at the s
 
 # Conversations with "_AIxperts_"
 1. The conversation with the Aviation Engineer can be found on the page below. It explains the Areas of Interest (AOIs) in the cockpit
-   "_AIxpert_" 1:
+"_AIxpert_" 1:
   [https://chatgpt.com/share/69812ad7-8339-44a6-943c-9e29bd73b3a0]
   
 
 
 2. The conversation with the Computer Scientist can be found on the page below. It recommends LightGBM, Gradient-boosted decision trees (GBDT), Random Forest (RF) models among 6 given models
-   "_AIxpert_" 2
+
+"_AIxpert_" 2
   [https://chatgpt.com/share/ee23082b-8229-4765-aca8-a4d4d3154fbf]
 
 
