@@ -46,5 +46,8 @@ To avoid the impact when coding the other model (in default parameters), we adop
 # Data
 The dataset is in the folder "Data(4sec)"
 # Appendix
+
 Template of the data characteristics: "Data description template.xlsx"
+
+
 Data characteristics described in this case study: "Description of data.csv"
